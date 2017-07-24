@@ -1,0 +1,39 @@
+/*
+The availability element extends the full width of the card, with a dark grey background and yellow text.
+Visual example*/
+
+body{
+	background-color: silver;
+}
+article.card-wrapper {
+	width: 30%;
+	border: 1px solid lightblue;
+	margin: 5px auto;
+	padding: 5px;
+	display: inline-grid;
+}
+
+header h2 {
+	border: 1px dotted lightgray;
+	text-align: center;
+}
+
+image {
+	position: centered;
+}
+
+.justified {
+	text-align: justified;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: .7em;
+}
+
+.availability {
+	width: 100%
+	background-color: darkgray;
+	color: yellow;
+	font-size: .7em;
+}
